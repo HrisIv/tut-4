@@ -15,6 +15,10 @@ public class TestCalc
     {
         assertEquals(5, calculator.add(3,2));
     }
+
+    @public void testsub(){
+        assertEquals(2, calculator.subtract(5,3));
+    }
 }
 
 
